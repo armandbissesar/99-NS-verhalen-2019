@@ -63,7 +63,7 @@ Header
 ==================================*/
 
 header {
-    background-color: #FECB2A;
+    background-color: red;
     color: blue;
     display: flex;
     height: 5rem;
