@@ -1,0 +1,197 @@
+/*==================================
+Base CSS
+==================================*/
+
+Body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6E9;
+}
+
+* {
+    font-family: "nssans";
+
+}
+
+/*==================================
+Header
+==================================*/
+
+header {
+    color: blue;
+    display: flex;
+    padding: 1rem;
+    height: auto;
+    font-size: 0.9rem;
+}
+
+header .logo img {
+    width: 4rem;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.doorlink {
+    margin: 1rem 0 0 5.5rem;
+    text-decoration: none;
+    color: #003082;
+}
+
+.doorlink:visited {
+    color: #003082;
+}
+
+.doorlink:hover {
+    color: #0077D6;
+}
+
+article {
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0.6rem;
+}
+
+article h1 {
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #003082;
+
+}
+
+form {
+    background-color: #FEC835;
+    padding: 1rem;
+
+}
+
+fieldset {
+    border: none;
+}
+
+button {
+    color: #003082;
+    border-bottom: 2px solid rgba(7, 7, 33, 0.1);
+    display: inline-block;
+    padding: 0 0 0.65rem;
+    margin-top: 0.9rem;
+    box-shadow: none;
+    background: transparent;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 1em;
+}
+
+/* ==================== MEDIA QUERIES ==================== */
+
+
+/* ==================== MEDIA QUERIES ==================== */
+
+@media all and (min-width: 10rem) {
+    article h1 {
+        font-size: 2em;
+    }
+}
+
+@media all and (min-width: 20rem) and (max-width: 46rem) {
+    article {
+        padding: 0 .875rem;
+    }
+
+    form,
+    div.aanmaken {
+        width: 100%;
+    }
+
+    form legend,
+    div.aanmaken section h2 {
+        font-size: 1.25em;
+    }
+
+    div.aanmaken {
+        margin: 0 0 1.5rem 0;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    input[type="password"],
+    input[type="text"],
+    form:last-child input[type="text"],
+    form:last-child input[type="password"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 46rem) and (max-width: 61.06rem) {
+
+    form,
+    div.aanmaken {
+        width: 100%;
+    }
+
+    div.aanmaken {
+        padding: 1rem 1rem 0 0;
+        margin: 0 0 1.5rem 0;
+    }
+
+    article {
+        padding: 1rem 3.125rem;
+        margin: 0;
+    }
+
+    article h1 {
+        font-size: 2.3em;
+    }
+
+    form:last-child {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 61.06rem) and (max-width: 64rem) {
+    main {
+        width: 100%;
+    }
+
+    form {
+        width: 57.26495726495726%;
+    }
+
+    div.aanmaken {
+        width: 40.17094017094017%;
+    }
+
+    form:last-child {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 75rem) {
+    nav section {
+        width: 100%;
+        margin-left: auto;
+    }
+
+    footer p {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 85rem) {
+    nav section {
+        width: 86%;
+    }
+}
+
+@media only screen and (min-width: 90rem) {
+    nav section {
+        width: 75%;
+    }
+
+    /* ==================== MEDIA QUERIES END ==================== */

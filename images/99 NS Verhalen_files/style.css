@@ -1,0 +1,141 @@
+/*==================================
+Base CSS
+==================================*/
+
+Body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6E9;
+}
+
+* {
+    font-family: "nssans", "Shaka Pow";
+
+}
+
+.container {
+    width: 95%;
+    max-width: 64rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: flex-start;
+}
+
+/*==================================
+Header
+==================================*/
+
+header {
+    background-color: #FECB2A;
+    color: blue;
+    display: flex;
+    padding: 1rem;
+}
+
+header .logo img {
+    width: 6rem;
+    padding: 1rem;
+}
+
+header nav {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+}
+
+header nav ul li {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+h1 {
+    color: #003082
+}
+
+article {
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+article img {
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+
+article h3 {
+
+    background-color: #6A6A7B;
+    opacity: 0.93;
+    position: absolute;
+    width: 89.7%;
+    top: 5.3rem;
+    text-align: bottom;
+    height: 3.5rem;
+    font-size: 0.95rem;
+    text-align: justify;
+}
+
+.bladwijzer {
+
+    background: url(../images/symbolen/Bookmark/unfill.png) no-repeat center;
+    background-size: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    position: relative;
+    top: -3rem;
+    right: 0;
+    left: 16rem;
+}
+
+.leesverder {
+    background-color: #0077D6;
+    width: 10rem;
+    border-bottom: solid 3px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+}
+
+/* ==================================
+De verwarde man
+==================================*/
+
+
+article h1 {}
+
+article img {
+    padding: 0.10rem 0 1rem 0;
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    <
+}
+
+
+footer ul {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+}
+
+footer ul li {
+    margin-left: 1rem;
+}

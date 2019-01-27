@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.5, minimum-scale=1.0">
+    <!--Viewport pakt breede van het scherm. User scalable zorgt ervoor dat je kan inzoomen tot max 1.5 scale.-->
+    <title>Account aanmaken</title>
+    <link rel="icon" href="images/logo/99nsverhalen.png">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="index.html" title="NS Verhalen"><img src="images/logo/nslogo.svg" alt="NSlogo"></a>
+        <a class="doorlink" href="index.html"> Ga naar 99 NS verhalen ></a>
+    </header>
+    <main>
+        <article>
+            <h1> Welkom bij uw NS verhalen</h1>
+            <form>
+                <fieldset>
+                    <legend>Account aanmaken</legend>
+                    <div class="label-group">
+                        <label for="email">
+                            E-mailadres
+                        </label>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+                    <div class="label-group">
+                        <label for="password">
+                            Wachtwoord
+                        </label>
+                        <input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
+                    </div>
+                    <label>
+                        <input type="submit" value="Inloggen">
+                    </label>
+                    <button>Wachtwoord vergeten?</button>
+                </fieldset>
+            </form>
+            <aside>
+                <p> Waarom NS verhalen?</p>
+                <p>+Lees unieke verhalen voor, tijdens en na je reis!</p>
+                <p>+Sla ze op en lees het wanneer het jouw uitkomt</p>
+                <p>+ Geen gedoe met geheugen, alles is online opgeslagen!</p>
+            </aside>
+
+
+
+        </article>
+    </main>
+
+</body>
+
+</html>

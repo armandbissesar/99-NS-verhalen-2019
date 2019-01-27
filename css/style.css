@@ -1,0 +1,337 @@
+@font-face {
+    font-family: 'BadaBoom BB';
+    src: url('../fonts/BadaBoomBB.eot');
+    src: url('../fonts/BadaBoomBB.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BadaBoomBB.woff2') format('woff2'),
+        url('../fonts/BadaBoomBB.woff') format('woff'),
+        url('../fonts/BadaBoomBB.ttf') format('truetype'),
+        url('../BadaBoomBB.svg#BadaBoomBB') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NS Sans';
+    src: url('../fonts/NSSans-Bold.eot');
+    src: url('../fonts/NSSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NSSans-Bold.woff2') format('woff2'),
+        url('../fonts/NSSans-Bold.woff') format('woff'),
+        url('../fonts/NSSans-Bold.ttf') format('truetype'),
+        url('../fonts/NSSans-Bold.svg#NSSans-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NS Sans';
+    src: url('../fonts/NSSans.eot');
+    src: url('../fonts/NSSans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NSSans.woff2') format('woff2'),
+        url('../fonts/NSSans.woff') format('woff'),
+        url('../fonts/NSSans.ttf') format('truetype'),
+        url('../fonts/NSSans.svg#NSSans') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*==================================
+Base CSS
+==================================*/
+
+Body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6E9;
+    font-family: 'NS Sans';
+}
+
+.container {
+    width: 95%;
+    max-width: 64rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+/*==================================
+Header
+==================================*/
+
+header {
+    background-color: #FECB2A;
+    color: blue;
+    display: flex;
+    height: 5rem;
+}
+
+header .logo img {
+    width: 4rem;
+
+}
+
+header nav {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header nav ul li a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+form fieldset {
+    background-color: white;
+    border: none;
+}
+
+aside section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+aside section ul {
+    display: flex;
+    margin-right: auto
+}
+
+aside section ul li {
+    display: flex;
+    padding: 0 0.5rem;
+    color: #0077D6;
+}
+
+Aside section h3 {
+    margin-left: auto;
+    color: #003082;
+}
+
+.welkom {
+    background-color: #003082;
+    margin: auto;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+.welkom h1 {
+    color: white;
+    font-weight: 100;
+
+}
+
+.welkom p {
+    color: white;
+}
+
+h1 {
+    color: #003082;
+}
+
+h2 {
+    font-weight: 100;
+    color: #003082;
+    padding: 1rem;
+}
+
+section article {
+    background-color: white;
+    margin: 1rem;
+}
+
+section article p {
+    padding: 1rem;
+}
+
+section article header {
+    position: relative;
+    max-height: 15rem;
+    height: auto;
+    color: white;
+}
+
+section article section {
+
+    display: flex;
+    padding: 1rem;
+}
+
+section article h4 {
+
+    color: #6A6A7B;
+    font-weight: 100;
+
+}
+
+section article img {
+    width: 100%;
+    height: auto;
+}
+
+section article button img {
+    pointer-events: none;
+}
+
+section article h3 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #6A6A7B;
+    opacity: 0.93;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: bottom;
+    height: 3.5rem;
+    font-size: 0.95rem;
+    align-items: center;
+}
+
+section article button {
+    margin-right: 0;
+    display: block;
+    margin-left: auto;
+}
+
+.bladwijzer {
+
+    background: url(../images/symbolen/Bookmark/unfill.png) no-repeat center;
+    background-size: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    position: relative;
+    top: -3rem;
+    right: 0;
+    left: 16rem;
+}
+
+.leesverder {
+    background-color: #0077D6;
+    width: 10rem;
+    border-bottom: solid 3px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+    margin: 1rem;
+    color: white
+}
+
+section article a {
+    text-decoration: none;
+}
+
+section article footer {
+    color: #003082;
+}
+
+/* ==================================
+De verwarde man
+==================================*/
+
+
+aside {
+    background-color: white;
+
+}
+
+.verhaal img {
+    padding: 1rem 0;
+
+}
+
+article img {
+    width: 100%;
+}
+
+article h1 {
+    font-family: 'BadaBoom BB';
+    font-size: 3rem;
+    color: #AA0202;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+button {
+    margin-left: auto;
+    align-items: center;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+progress {
+    width: 100%;
+    border-radius: 0;
+    -webkit-appearance: none;
+    height: 0.5em;
+    color: blue;
+    background-color: red;
+}
+
+progress::-webkit-progress-value {
+    background: #0077D6;
+}
+
+footer ul {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+}
+
+footer ul li {
+    margin-left: 1rem;
+}
+
+footer .container {
+    align-items: center;
+    text-decoration: none;
+}
+
+footer .container a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 40rem) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 80rem) {
+    main {
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+}
