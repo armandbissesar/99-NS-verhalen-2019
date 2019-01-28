@@ -101,11 +101,6 @@ header nav ul li a {
     text-decoration: none;
 }
 
-form fieldset {
-    background-color: white;
-    border: none;
-}
-
 aside section {
     display: flex;
     width: 100%;
@@ -127,7 +122,7 @@ aside section ul li {
 }
 
 Aside section h3 {
-    margin-left: auto;
+    margin-left: 1.5rem;
     color: #003082;
 }
 
@@ -169,8 +164,7 @@ section article p {
 
 section article header {
     position: relative;
-    max-height: 15rem;
-    height: auto;
+    height: 15rem;
     color: white;
 }
 
@@ -192,8 +186,33 @@ section article img {
     height: auto;
 }
 
-section article button img {
+.de-verwarde-man img.flip {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    /* Bronvermelding code: https://css-tricks.com/snippets/css/flip-an-image/*/
+}
+
+
+button.bladwijzer,
+button.fout,
+button.goed {
+    appearance: none;
+    border: 0;
+    padding: 0;
+    background: none;
+    width: 1.5rem;
+}
+
+button.bladwijzer img,
+button.fout img,
+button.goed img {
     pointer-events: none;
+    height: auto;
+    width: 100%;
 }
 
 section article h3 {
@@ -217,6 +236,7 @@ section article button {
     margin-left: auto;
 }
 
+/*
 .bladwijzer {
 
     background: url(../images/symbolen/Bookmark/unfill.png) no-repeat center;
@@ -228,7 +248,7 @@ section article button {
     top: -3rem;
     right: 0;
     left: 16rem;
-}
+}*/
 
 .leesverder {
     background-color: #0077D6;
@@ -318,20 +338,74 @@ footer .container a {
     text-decoration: none;
 }
 
+/* ==================================
+Javascript
+==================================*/
+
+.active {}
+
 @media screen and (min-width: 40rem) {
-    main {
+
+    main > section {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 50% 50%;
     }
 
-    header {
-        background-color: red;
+    main > section h2 {
+        grid-column: span 2;
     }
+
+    main section h2 {
+
+        justify-content: center;
+        display: flex;
+    }
+
+    main aside {
+        display: flex;
+        justify-content: center;
+    }
+
+    .welkom {
+        width: 25rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .verhaal {
+        display: grid;
+        grid-gap: 0 2rem;
+        grid-template-columns: 50% 50%;
+    }
+
+    .verhaal h1 {
+        grid-column: span 2;
+    }
+
 }
 
-@media screen and (min-width: 80rem) {
-    main {
-        max-width: 40rem;
+
+@media screen and (min-width: 85rem) {
+
+    main > section {
+        max-width: 85rem;
         margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 33.3%);
+    }
+
+    main section h2 {
+        grid-column: span 3;
+    }
+
+    .verhaal {
+        display: grid;
+        grid-gap: 0 2rem;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    }
+
+    .verhaal h1 {
+        grid-column: span 3;
     }
 }

@@ -8,7 +8,6 @@
     <title>99 NS Verhalen</title>
     <link rel="icon" href="images/logo/99nsverhalen.png">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style/fonts">
 </head>
 
 <body>
@@ -33,16 +32,15 @@
             <section>
                 <div class="container">
                     <p> Leesduur 14 min</p>
-                    <button> <img src="images/symbolen/unfill.png" title="bladwijzer" alt="bladwijzer">
-                    </button>
+                    <button class="bladwijzer"><img src="images/symbolen/unfill.png" title="bladwijzer" alt="bladwijzer"></button>
 
                 </div>
             </section>
             <progress value="40" max="100"></progress>
         </aside>
-
+        <!--Knop maken van het husselen van de afbeeldingen-->
         <article>
-            <div class="verhaal">
+            <div class="verhaal de-verwarde-man">
                 <h1>De verwarde man</h1>
 
                 <img src="images/verhaal/blok1.jpg" alt="babyschoentjes">
@@ -65,13 +63,14 @@
                 <a href="deverwardeman.html"> Naar boven </a>
 
                 <ul>
-                    <li> <img src="images/symbolen/duimgoed.svg" title="Leuk" alt="Niet leuk"> <a href="inloggen.html">65%</a></li>
-                    <li> <img src="images/symbolen/duimfout.svg" title="Niet leuk" alt="Niet leuk"> <a href="inloggen.html">35%</a></li>
+                    <li><button class="goed"><img src="images/symbolen/duimgoed.svg" title="Leuk" alt="Leuk"> 65%</button></li>
+                    <li><button class="fout"><img src="images/symbolen/duimfout.svg" title="Niet leuk" alt="Niet leuk"> 35%</button></li>
                 </ul>
 
             </div>
         </footer>
     </main>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
