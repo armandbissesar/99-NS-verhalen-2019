@@ -372,6 +372,11 @@ Javascript
         justify-content: center;
     }
 
+    main aside form {
+        display: flex;
+        margin-top: 0em;
+    }
+
     .welkom {
         width: 25rem;
         display: block;
