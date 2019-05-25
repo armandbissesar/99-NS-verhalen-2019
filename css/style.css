@@ -392,10 +392,10 @@ Javascript
 }
 
 
-@media screen and (min-width: 85rem) {
+@media screen and (min-width: 75rem) {
 
     main > section {
-        max-width: 85rem;
+        max-width: 75rem;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(3, 33.3%);
