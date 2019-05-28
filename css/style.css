@@ -170,18 +170,23 @@ h2 {
 
 }
 
-/*
+.uitgelicht header {
+
+    position: relative;
+
+}
+
 .meestgelezen {
-    margin-left: 100rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0.5rem;
     background-color: #FECB2A;
-    width: 10rem;
     border-bottom: solid 3px rgba(0, 0, 0, 0.2);
-    margin-left: auto;
     color: black;
 
 }
 
-*/
 
 /* Uitgelicht verhaal */
 
