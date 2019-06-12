@@ -118,7 +118,8 @@ aside section {
 
 aside section ul {
     display: flex;
-    margin-right: auto
+    margin: 0 auto 0 0;
+    padding: 0;
 }
 
 aside section ul li {
@@ -128,8 +129,52 @@ aside section ul li {
 }
 
 Aside section h3 {
-    margin-left: 1.5rem;
     color: #003082;
+    margin: 0 0 0 1.4em;
+}
+
+
+main aside {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main aside form {
+    display: flex;
+    width: 100%;
+    background: #0077D6;
+    flex-wrap: wrap;
+}
+
+main aside form fieldset {
+    border: none;
+    margin: 0;
+    padding: 1rem 1rem;
+}
+
+main aside form fieldset label {
+    color: white;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+main aside form fieldset input[type="checkbox"]:checked + label {
+    font-weight: bold;
+}
+
+main aside form fieldset input[type="checkbox"] {
+    -webkit-appearance: none;
+}
+
+main aside section button {
+    margin: 0;
+    -webkit-appearance: none;
+    border: none;
+    padding: 0 0.5rem;
+    color: #0077D6;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 .welkom {
@@ -401,21 +446,17 @@ section h4 + button img.active {
         grid-column: span 2;
     }
 
+    main aside {
+        flex-wrap: wrap;
+    }
+
+
     main section h2 {
 
         justify-content: center;
         display: flex;
     }
 
-    main aside {
-        display: flex;
-        justify-content: center;
-    }
-
-    main aside form {
-        display: flex;
-        margin-top: 0em;
-    }
 
     .welkom {
         width: 25rem;
