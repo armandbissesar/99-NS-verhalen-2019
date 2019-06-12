@@ -7,7 +7,7 @@ function bladwijzerFunctie(e) {
     var img = e.target.childNodes[0]
     if (img.classList.contains('active')) {
         img.classList.remove('active');
-        img.src = "images/symbolen/unfilled.svg";
+        img.src = "images/symbolen/unfill.svg";
 
     } else {
         img.classList.add('active');

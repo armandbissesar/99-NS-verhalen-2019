@@ -1,115 +1,168 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.5, minimum-scale=1.0">
     <!--Viewport pakt breede van het scherm. User scalable zorgt ervoor dat je kan inzoomen tot max 1.5 scale.-->
     <title>99 NS Verhalen</title>
-     <link rel="icon" href="images/logo/99nsverhalen.png">
+    <link rel="icon" href="images/logo/nslogo.svg">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
-       <a class="logo" href="index.html" title="NS Verhalen"><img src="images/logo/nslogo.svg" alt="NSlogo"></a>
-        <nav>
-            <ul>
-                <li> <img src="images/symbolen/Search.svg" alt="NSlogo"> Zoeken</li>
-                <li> <img src="images/symbolen/Profile.png" alt="NSlogo">Inloggen</li>
-            </ul>
-        </nav>
-    </header> 
-    <section>
-        <nav> 
-            <h3>Filteren</h3>
-               <p>0-30 min</p>
-                <ul> <!--Verhalen verdeeld over aantal minuten-->
-                    <li>0 - 30 min</li>
-                    <li>0 - 5 min</li>
-                    <li>5 - 10 min</li>
-                    <li>10 min+</li>
+        <div class="container">
+            <a class="logo" href="index.html" title="NS Verhalen"><img src="images/logo/nslogo.svg" alt="NSlogo"></a>
+            <nav>
+                <ul>
+                    <li> <img src="images/symbolen/filled.svg" title="bookmark" alt="Bookmark"> <a href="">Opgeslagen</a></li>
+                    <li> <img src="images/symbolen/Search.svg" title="Zoeken" alt="Zoeken"> <a href="inloggen.html">Zoeken</a></li>
+                    <li> <img src="images/symbolen/Profile.svg" title="Inloggen" alt="Inloggen"> <a href="inloggen.html">Armand</a></li>
                 </ul>
-                <p>Genres</p>
-                 <ul> <!--Verhalen in verschillende genres-->
-                    <li>Drama</li>
-                    <li>Horror</li>
-                    <li>Spanning</li>
-                    <li>Verdrietig</li>
-                    <li>Waargebeurd</li>
-                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <section>
+                <h3>Filteren</h3>
+                <button>0 -5 min</button>
+                <button>Alle genres</button>
+            </section>
+            <form>
+                <fieldset id="reading-time">
+                    <input type="checkbox" name="0-30min" id="min30">
+                    <label for="min30">0-30 min</label>
+                    <input type="checkbox" name="0-5min" id="min5">
+                    <label for="min5">0-5 min</label>
+                    <input type="checkbox" name="5-10min" id="min10">
+                    <label for="min10">5-10 min</label>
+                    <input type="checkbox" name="0-5min" id="plus10">
+                    <label for="plus10">10+ min</label>
+                </fieldset>
+                <fieldset id="genres">
+                    <input type="checkbox" name="allegenres" id="allgenres">
+                    <label for="allgenres">Alle genres</label>
+                    <input type="checkbox" name="drama" id="drama">
+                    <label for="drama">Drama</label>
+                    <input type="checkbox" name="humor" id="humor">
+                    <label for="humor">Humor</label>
+                    <input type="checkbox" name="spanning" id="spanning">
+                    <label for="spanning">Spanning</label>
+                </fieldset>
+            </form>
+
+
+
+        </aside>
+        <aside>
+            <section>
                 <h3>Sorteren</h3>
-                <ul> <!--Order soort-->
+                <ul>
+                    <!--Order soort-->
                     <li>Aanbevolen</li>
                     <li>Populair</li>
                     <li>Nieuw</li>
                 </ul>
-        </nav> 
-    </section>
-    
-    <section>
-        <h1> Welkom op de 99 NS verhalen website.</h1> 
-         <p> Hier kan je unieke verhalen lezen wanneer het jou uit komt. Veel lees plezier!</p>  
-    </section>
-       
-    <section>    
-        <h2>Aanbevolen verhalen door de NS</h2>
-        
-        <article>
-                 <header>
+            </section>
+        </aside>
+
+
+        <div class="welkom">
+            <h1> Welkom op de 99 NS verhalen website.</h1>
+            <p> Hier kan je unieke verhalen lezen wanneer het jou uit komt. Veel lees plezier!</p>
+        </div>
+
+
+        <section>
+            <h2>Aanbevolen verhalen door de NS</h2>
+
+            <article class="uitgelicht">
+                <header>
+                    <a class="meestgelezen">Meest gelezen</a>
+                    <img src="images/deverwardeman.gif" alt="de verwarde man">
+                    <h3>De verwarde man</h3>
+                </header>
+                <section>
+                    <h4>Humor</h4>
+                    <button class="bladwijzer"><img src="images/symbolen/unfill.svg" title="bladwijzer" alt="bladwijzer"></button>
+                </section>
+                <p>De politie heeft dinsdag 2 februari een verwarde man aangehouden.
+                    Hij was op dat moment in een babywinkel op het Bos en Lommerplein bezig babyschoentjes te kopen.</p>
+                <a class="leesverder" href="deverwardeman.html">Lees verder</a>
+                <footer>
+                    <p>Leesduur 14 min</p>
+                </footer>
+            </article>
+            <article>
+                <header>
                     <img src="images/foxkids.gif" alt="Vrijdag de dertiende">
                     <h3>Presentator die ten onrechte denkt aansluiting te hebben gevonden bij ‘de kids’</h3>
-                </header>  
-                    <h4>Humor</h4>     
-                <button class="bladwijzer" onclick="window.location.href = 'indexinlog.html';">Bladwijzer</button>
-                  <p>De politie heeft dinsdag 2 februari een verwarde man aangehouden. 
-                     Hij was op dat moment in een babywinkel op het Bos en Lommerplein bezig babyschoentjes te kopen.</p>   
-                  <button>Lees verder</button>
-                    <footer>
-                     <p>Leesduur 14 min</p>
-                  </footer>      
+                </header>
+                <section>
+                    <h4>Humor</h4>
+                    <button class="bladwijzer"><img src="images/symbolen/unfill.svg" title="bladwijzer" alt="bladwijzer"></button>
+                </section>
+                <p>De politie heeft dinsdag 2 februari een verwarde man aangehouden.
+                    Hij was op dat moment in een babywinkel op het Bos en Lommerplein bezig babyschoentjes te kopen.</p>
+                <a class="leesverder" href="deverwardeman.html">Lees verder</a>
+                <footer>
+                    <p>Leesduur 14 min</p>
+                </footer>
             </article>
-            
-              <article>
-                 <header>
-                    <img src="images/drake.gif" alt="Vrijdag de dertiende">
-                    <h3>Presentator die ten onrechte denkt aansluiting te hebben gevonden bij ‘de kids’</h3>
-                </header>  
-                <h4>Humor</h4>     
-                <button>Bladwijzer</button>
-                  <p>De politie heeft dinsdag 2 februari een verwarde man aangehouden. 
-                     Hij was op dat moment in een babywinkel op het Bos en Lommerplein bezig babyschoentjes te kopen.</p>   
-                  <button>Lees verder</button>
-                    <footer>
-                     <p>Leesduur 14 min</p>
-                  </footer>      
-            </article>
-            
-            <article>
-                 <header>
-                    <img src="images/vrijdag13e.png" alt="Vrijdag de dertiende">
-                    <h3>Presentator die ten onrechte denkt aansluiting te hebben gevonden bij ‘de kids’</h3>
-                </header>  
-                <h4>Humor</h4>     
-                <button>Bladwijzer</button>
-                  <p>De politie heeft dinsdag 2 februari een verwarde man aangehouden. 
-                     Hij was op dat moment in een babywinkel op het Bos en Lommerplein bezig babyschoentjes te kopen.</p>   
-                  <button>Lees verder</button>
-                    <footer>
-                     <p>Leesduur 14 min</p>
-                  </footer>      
-            </article>
-            
-           
-            
-            
-        </section>
-   
-   
-    
-    
-    
-    
-    
 
-    
+            <article>
+                <header>
+                    <img src="images/drake.gif" alt="Vrijdag de dertiende">
+                    <h3>Six words story</h3>
+                </header>
+                <section>
+                    <h4>Humor</h4>
+                    <button class="bladwijzer"><img src="images/symbolen/unfill.svg" title="bladwijzer" alt="bladwijzer"></button>
+                </section>
+                <p>Gezocht: Stijloefeningen van Queneau. Gevonden: babyschoentjes.</p>
+                <a class="leesverder" href="deverwardeman.html">Lees verder</a>
+                <footer>
+                    <p>Leesduur 14 min</p>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <img src="images/vrijdag13e.png" alt="Vrijdag de dertiende">
+                    <h3>Vrijdag de dertiende</h3>
+                </header>
+                <section>
+                    <h4>Humor</h4>
+                    <button class="bladwijzer"><img src="images/symbolen/unfill.svg" title="bladwijzer" alt="bladwijzer"></button>
+                </section>
+                <p>De politie heeft dinsdag 2 februari een verwarde man aangehouden.
+                    Hij was op dat moment in een babywinkel op het Bos en Lommerplein bezig babyschoentjes te kopen.</p>
+                <a class="leesverder" href="deverwardeman.html">Lees verder</a>
+                <footer>
+                    <p>Leesduur 14 min</p>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <img src="images/gefrusteerd.jpg" alt="Vrijdag de dertiende">
+                    <h3>Gefrusteerd</h3>
+                </header>
+                <section>
+                    <h4>Humor</h4>
+                    <button class="bladwijzer"><img src="images/symbolen/unfill.svg" title="bladwijzer" alt="bladwijzer"></button>
+                </section>
+                <p>Ik stap uit die godverdomde stinkbus. De mensen krioelen als mieren over het stationsplein. Ik wil ze vertrappen onder m’n schoenen. Vermorzelen. Verbrijzelen. De klootzakken en kakkerlakken. </p>
+                <a class="leesverder" href="deverwardeman.html">Lees verder</a>
+                <footer>
+                    <p>Leesduur 14 min</p>
+                </footer>
+            </article>
+        </section>
+
+    </main>
+    <script src="js/main.js"></script>
 </body>
+
 </html>

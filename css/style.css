@@ -133,6 +133,11 @@ Aside section h3 {
     margin: 0 0 0 1.4em;
 }
 
+Main Aside section div button {
+
+    margin-left: auto;
+}
+
 
 main aside {
     display: flex;
@@ -436,6 +441,7 @@ section h4 + button img.active {
 }
 
 @media screen and (min-width: 40rem) {
+
 
     main > section {
         display: grid;
