@@ -196,7 +196,8 @@ section article {
 }
 
 section article p {
-    padding: 1rem;
+    margin: 1rem;
+    padding: 0 0 1rem 0;
 }
 
 section article header {
@@ -208,13 +209,14 @@ section article header {
 section article section {
 
     display: flex;
-    padding: 1rem;
+    margin: 1rem;
 }
 
 section article h4 {
 
     color: #6A6A7B;
     font-weight: 100;
+    margin: 0;
 
 }
 
@@ -289,11 +291,12 @@ section article button {
 
 .leesverder {
     background-color: #0077D6;
-    width: 10rem;
+    width: 5rem;
     border-bottom: solid 3px rgba(0, 0, 0, 0.2);
     padding: 0.5rem;
     margin: 1rem;
-    color: white
+    color: white;
+    display: block;
 }
 
 section article a {
