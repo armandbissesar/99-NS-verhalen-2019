@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>Search</title>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 2</title>
     <desc>Created with Sketch.</desc>
-    <g id="Search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(-0.000000, 0.000000)" stroke="#003082" stroke-width="1.162">
-            <path d="M14.8235294,7.41176471 C14.8235294,11.5052886 11.5052886,14.8235294 7.41176471,14.8235294 C3.31824079,14.8235294 0,11.5052886 0,7.41176471 C0,3.31824079 3.31824079,0 7.41176471,0 C11.5052886,0 14.8235294,3.31824079 14.8235294,7.41176471 L14.8235294,7.41176471 Z" id="Stroke-1"></path>
-            <path d="M13.7647059,12.7058824 L19.0588235,18" id="Stroke-3"></path>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search" stroke="#003082" stroke-width="1.162">
+            <g id="Group-2" transform="translate(1.000000, 1.000000)">
+                <path d="M14.8235294,7.41176471 C14.8235294,11.5052886 11.5052886,14.8235294 7.41176471,14.8235294 C3.31824079,14.8235294 0,11.5052886 0,7.41176471 C0,3.31824079 3.31824079,0 7.41176471,0 C11.5052886,0 14.8235294,3.31824079 14.8235294,7.41176471 L14.8235294,7.41176471 Z" id="Stroke-1"></path>
+                <path d="M13.7647059,12.7058824 L19.0588235,18" id="Stroke-3"></path>
+            </g>
         </g>
     </g>
 </svg>

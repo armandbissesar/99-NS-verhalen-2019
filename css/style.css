@@ -76,8 +76,8 @@ header {
 }
 
 header .logo img {
-    width: 4rem;
-
+    width: 5rem;
+    margin-left: 1rem;
 }
 
 header nav {
@@ -378,8 +378,14 @@ footer .container a {
 /* ==================================
 Javascript
 ==================================*/
+section h4 + button img {
+    border: 2px solid red;
+    transition: all 1s;
+}
 
-.active {}
+section h4 + button img.active {
+    border: 10px solid red;
+}
 
 @media screen and (min-width: 40rem) {
 
