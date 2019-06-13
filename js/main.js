@@ -1,3 +1,9 @@
+/*jslint browser: true, devel: true, eqeq: true, plusplus: true, sloppy: true, vars: true, white: true*/
+
+/*eslint-env browser*/
+
+/*eslint 'no-console': 0*/
+
 var bladwijzer = document.querySelectorAll("button.bladwijzer");
 var duimfout = document.querySelectorAll("button.fout");
 var duimgoed = document.querySelectorAll("button.goed");
@@ -75,6 +81,6 @@ for (var l = 0; l < verwardeImages.length; l++) {
 
 var opslaan = document.querySelector('.opgeslagen');
 
-download.addEventListener('click', function () {
-    document.body.classList.toggle('bladwijzer');
+opslaan.addEventListener('click', function () {
+    document.body.classList.toggle('opslaan');
 })
