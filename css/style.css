@@ -428,6 +428,26 @@ footer .container a {
     text-decoration: none;
 }
 
+
+/* ==================================
+Inloggen
+==================================*/
+
+email,
+.password {
+    max-width: 11rem;
+    flex-wrap: wrap;
+}
+
+.email label,
+.email input,
+.password label,
+.password input {
+    width: 100%;
+}
+
+
+
 /* ==================================
 Javascript
 ==================================*/
