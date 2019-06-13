@@ -67,6 +67,7 @@ header .logo img {
     margin: 1rem 0 0 5.5rem;
     text-decoration: none;
     color: #003082;
+    margin-left: 10.6rem;
 }
 
 .doorlink:visited {
@@ -95,6 +96,19 @@ article h1 {
 
 }
 
+.email,
+.password {
+    max-width: 11rem;
+    flex-wrap: wrap;
+}
+
+.email label,
+.email input,
+.password label,
+.password input {
+    width: 100%;
+}
+
 form {
     background-color: #FEC835;
     padding: 1rem;
@@ -118,13 +132,26 @@ article fieldset .email {
 
 }
 
-button {
+.leesverder {
     background-color: #0077D6;
+    width: 5rem;
     border-bottom: solid 3px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     margin: 1rem 0rem 1rem;
     color: white;
+    display: block;
+    text-decoration: none;
 }
+
+/*button {
+    background-color: #0077D6;
+    width: 5rem;
+    border-bottom: solid 3px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    margin: 1rem 0rem 1rem;
+    color: white;
+    display: block;
+}*/
 
 /*==================================
 Waarom NS block?

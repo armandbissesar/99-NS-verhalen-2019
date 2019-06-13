@@ -429,24 +429,6 @@ footer .container a {
 }
 
 
-/* ==================================
-Inloggen
-==================================*/
-
-email,
-.password {
-    max-width: 11rem;
-    flex-wrap: wrap;
-}
-
-.email label,
-.email input,
-.password label,
-.password input {
-    width: 100%;
-}
-
-
 
 /* ==================================
 Javascript
@@ -459,6 +441,10 @@ section h4 + button img {
 section h4 + button img.active {
     border: 10px solid red;
 }
+
+/* ==================================
+Resposive schermen
+==================================*/
 
 @media screen and (min-width: 40rem) {
 
