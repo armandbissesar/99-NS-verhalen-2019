@@ -14,10 +14,12 @@ function bladwijzerFunctie(e) {
     if (img.classList.contains('active')) {
         img.classList.remove('active');
         img.src = "images/symbolen/unfill.svg";
+        document.body.classList.remove('bladwijzer');
 
     } else {
         img.classList.add('active');
         img.src = "images/symbolen/filled.svg";
+        document.body.classList.add('bladwijzer');
 
 
     }
@@ -77,10 +79,3 @@ for (var k = 0; k < duimfout.length; k++) {
 for (var l = 0; l < verwardeImages.length; l++) {
     verwardeImages[l].addEventListener('click', verwardeImagesFunctie);
 }
-
-
-var opslaan = document.querySelector('.opgeslagen');
-
-opslaan.addEventListener('click', function () {
-    document.body.classList.toggle('opslaan');
-})
