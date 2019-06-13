@@ -19,6 +19,7 @@ function bladwijzerFunctie(e) {
 
 }
 
+
 function duimgoedFunctie(e) {
     var img = e.target.childNodes[0];
     if (img.classList.contains('active')) {
@@ -70,3 +71,10 @@ for (var k = 0; k < duimfout.length; k++) {
 for (var l = 0; l < verwardeImages.length; l++) {
     verwardeImages[l].addEventListener('click', verwardeImagesFunctie);
 }
+
+
+var opslaan = document.querySelector('.opgeslagen');
+
+download.addEventListener('click', function () {
+    document.body.classList.toggle('bladwijzer');
+})

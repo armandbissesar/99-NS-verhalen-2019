@@ -433,13 +433,31 @@ footer .container a {
 /* ==================================
 Javascript
 ==================================*/
-section h4 + button img {
+/* section h4 + button img {
     border: 2px solid red;
     transition: all 1s;
 }
 
 section h4 + button img.active {
     border: 10px solid red;
+}*/
+
+nav li:nth-child(2) a:after {
+    content: '';
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    right: -.5em;
+    top: -1em;
+    transform: scale(0) translateX(5em);
+    border-radius: 50%;
+    transition: all .075s .5s ease-in;
+}
+
+body.bladwijzer nav li:nth-child(2) a:after {
+    opacity: 1;
+    background: radial-gradient(ellipse at center, #b2e1ff 0%, #66b6fc 100%);
+    transform: scale(1) translateX(0);
 }
 
 /* ==================================
