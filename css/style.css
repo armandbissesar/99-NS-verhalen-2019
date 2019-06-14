@@ -372,9 +372,15 @@ aside {
 
 }
 
+article {
+    background-image: url("images/verhaalachtergrond");
+    background-repeat: repeat-x;
+}
+
 article img {
     width: 100%;
 }
+
 
 article h1 {
     font-family: 'BadaBoom BB';

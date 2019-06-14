@@ -49,7 +49,7 @@ function duimfoutFunctie(e) {
 
     } else {
         img.classList.add('active');
-        img.src = "images/symbolen/duimfoutFilled.svg";
+        img.src = "images/symbolen/duimfoutfilled.svg";
     }
     console.log(img);
 }
