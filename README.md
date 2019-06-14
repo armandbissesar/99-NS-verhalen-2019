@@ -14,9 +14,9 @@
 
 ## Auteur
 
-*Armand Bissesar
-*500727671
-*Project web
+* Armand Bissesar<br>
+* 500727671<br>
+* Project web<br>
 
 ## Het concept
 
