@@ -11,13 +11,13 @@
 * [Het concept](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#het-concept)
 * [Multi device wireflow](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#multi-device-wireflow)
     * Responsive gebruikerservaring 
-        * [Voor de reis] (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#het-concept)
-        * [Tijdens de] reis (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#tijdens-de-reis)
-        * [Na de reis] (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#na-de-reis)
+        * [Voor de reis](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#het-concept)
+        * [Tijdens de](reis (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#tijdens-de-reis)
+        * [Na de reis](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#na-de-reis)
 
 * [Microinteracties](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#micro-interacties)
-    * [Bookmarken] (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#bookmark)
-    * [Beoordelen] (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#beoordelen)
+    * [Bookmarken](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#bookmark)
+    * [Beoordelen](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#beoordelen)
 * [De verwarde man](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#het-verhaal-de-verwarde-man)
 * [Conclusie](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#conclusie)
 
@@ -75,7 +75,7 @@ Daarnaast ziet hij dat de verwarde man is opgeslagen.
 
 1. Armand gaat naar de mobiele website en logt in.
 
-![alt text](images.readme/mobiel/1.png "Overzichtpagina-mobiel-inlog")
+![alt text](images.readme/mobiel/1mobiel.png "Overzichtpagina-mobiel-inlog")
 
 2. Hierna klikt hij op opgeslagen verhalen. Vervolgens klikt hij op *lees verder* om zijn verhaal te beginnen.
 Armand leest het verhaal: de verwarde man.
@@ -86,17 +86,24 @@ Armand leest het verhaal: de verwarde man.
 
 ### Na de reis: **3. Inloggen, Verder lezen voor Armand, verhaal lezen en beoordelen (Desktop)**
 
-1. Eenmaal thuis aangekomen. Logt Armand in op zijn tablet en ziet hij de verwarde op het homescherm. Armand kan meteen met het verhaal
-verder gaan. 
+1. Eenmaal thuis aangekomen. Logt Armand in op zijn tablet en ziet dat hij verder kan gaan met lezen van het verhaal.
+
+![alt text](images/readme/tablet/1tablet.png "Overzichtpagina-mobiel-inlog")
 
 2. Nadat hij het verhaal had uitgelezen was hij van mening dat hij het een leuk verhaal vond. Onderaan het scherm kan hij een beoordeling over het verhaal
 geven. Hij doet dit door op het groen duimpje te klikken. Hij ziet het percentage veranderen. Dit geeft een beeld over wat de andere NS gebruikers vinden 
 van het verhaal. Armand heeft in iedergeval genoten.
 
+![alt text](images/readme/tablet/2tablet.png "beoordelen")
+
 ---
 
 Zo ziet de gebruikerservaring eruit van 99 NS verhalen.
 Bekijk het meegestuurde sketch file (@moodle) voor alle schermen.
+
+### Hoe ziet de website responsive eruit?
+
+![alt text](images/readme/responsive.gif "responsive")
 
 
 ## Micro interacties
@@ -140,14 +147,17 @@ De microinterctie begint opnieuw wanneer beide niet zijn selecteerd.
 
 ## Het verhaal: De verwarde man
 
-#### Visual Research Verhaal
+### Visual Research Verhaal
 Bekijk de volledige visual research in mijn sketch bestand.
 ![alt text](images/readme/visualresearchverhaal.png "verhaalresearch")
 
-### Mobiel
+### Het verhaal
 
-### Tablet
+![alt text](images/readme/deverhalen.gif "verhaalresearch")
 
-### Desktop
+Hierboven zien we de verhalen in de formaten van verschillende apparaten en de microinteracties in werking.
 
 ## Conclusie
+
+Project web was een interessant en vooral leerzaam project. Zo is de grootste les die ik hieruit meeneem, dat je vooral veel moet doen om vervolgens 
+bij te schakelen. Hierbij doel ik voornamelijk op het stuk front-end. Terugkijkend kan ik trots terug kijken op de multi-device oplossing voor, tijdens en na de reis met de NS.
