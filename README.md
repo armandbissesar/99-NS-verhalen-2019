@@ -1,12 +1,15 @@
-# 99 NS verhalen | Project web CMD ![alt text][logo]
+# 99 NS verhalen | Project web CMD 
 
 99 NS verhalen is een verhalen website waar de gebruiker unieke verhalen kan lezen tijdens, voor en na de reizen met de Nederlandse Spoorwegen.  Het is een website die beschikbaar is voor alle apparaten en browsers een in elke context de gebruiker een unieke ervaring kan meegeven. 
+
+[ Bekijk hier het resultaat](https://armandbissesar.github.io/99-NS-verhalen-2019/index.html)
 
 ## Inhoudsopgave
 
 * [Auteur](https://www.google.com)
 * [Het concept](https://www.google.com)
-* [De gebruikerservaring voor, tijdens en na de reis met 99 NS verhalen](https://www.google.com)
+* [Multi device wireflow](https://www.google.com)
+    * De gebruikerservaring voor, tijdens en na de reis met 99 NS verhalen
     * Responsive website
 * [Microinteracties](https://www.google.com)
 * [De verwarde man](https://www.google.com)
@@ -20,10 +23,19 @@
 
 ## Het concept
 
-*Armand Bissesar
-*500727671
-*Project web
+99 NS verhalen is een interactieve verhalen website met unieke verhalen voor de reizigers van de NS. Ik heb gekozen voor *continuous* strategie. Dit houd in dat mijn multidevice ervaring een doorlopende ervaring is. De 99 NS-verhalen zullen dus ongeacht pc, tablet of telefoon, een geweldige leeservaring bieden aan de gebruiker.
 
+## Multi device wireflow
+
+Hieronder leg ik uit hoe de flow van de website is uit het perspectief van de desktop, mobiel en tablet.
+
+**1. Verhalen ontdekken en bookmarken**
+
+1. De gebruiker wilt graag op zijn laptop bekijken welk verhaal hij later in de trein wilt gaan lezen. 
+
+2. Hij bezoekt de website.
+
+![alt text](armandbissesar/Documents/GitHub/99-NS-verhalen-2019/images/readme/desktop/1.png "Logo Title Text 1")
 
 
 
