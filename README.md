@@ -75,12 +75,12 @@ Daarnaast ziet hij dat de verwarde man is opgeslagen.
 
 1. Armand gaat naar de mobiele website en logt in.
 
-![alt text](images/readme/mobiel/1.png "Overzichtpagina-mobiel-inlog")
+![alt text](images.readme/mobiel/1.png "Overzichtpagina-mobiel-inlog")
 
 2. Hierna klikt hij op opgeslagen verhalen. Vervolgens klikt hij op *lees verder* om zijn verhaal te beginnen.
 Armand leest het verhaal: de verwarde man.
 
-![alt text](images/readme/mobiel/2.png "de verwarde man")
+![alt text](images/readme/mobiel/2mobiel.png "de verwarde man")
 
 3. 6 minuten gaan zo voorbij en Armand is bijna op zijn bestemming. Hij heeft zijn verhaal niet kunnen afmaken.
 
