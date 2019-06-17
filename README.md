@@ -2,7 +2,7 @@
 
 99 NS verhalen is een verhalen website waar de gebruiker unieke verhalen kan lezen tijdens, voor en na de reizen met de Nederlandse Spoorwegen.  Het is een website die beschikbaar is voor alle apparaten en browsers een in elke context de gebruiker een unieke ervaring kan meegeven. 
 
-[Bekijk hier het protype](https://armandbissesar.github.io/99-NS-verhalen-2019/index.html)
+[Bekijk hier het prototype](https://armandbissesar.github.io/99-NS-verhalen-2019/index.html)
 
 
 ## Inhoudsopgave
@@ -79,7 +79,7 @@ Daarnaast ziet hij dat de verwarde man is opgeslagen.
 
 1. Armand gaat naar de mobiele website en logt in.
 
-![alt text](images/readme/1mobiel.png "Overzichtpagina-mobiel-inlog")
+![alt text](images/readme/mobiel/2mobiel.png "de verwarde man")
 
 2. Hierna klikt hij op opgeslagen verhalen. Vervolgens klikt hij op *lees verder* om zijn verhaal te beginnen.
 Armand leest het verhaal: de verwarde man.
@@ -161,7 +161,11 @@ Bekijk de volledige visual research in mijn sketch bestand.
 
 Hierboven zien we de verhalen in de formaten van verschillende apparaten en de microinteracties in werking.
 
+[Bekijk hier het verhaal in het prototype](https://armandbissesar.github.io/99-NS-verhalen-2019/deverwardeman.html)
+
 ## Conclusie
 
 Project web was een interessant en vooral leerzaam project. Zo is de grootste les die ik hieruit meeneem, dat je vooral veel moet doen om vervolgens 
 bij te schakelen. Hierbij doel ik voornamelijk op het stuk front-end. Terugkijkend kan ik trots terug kijken op de multi-device oplossing voor, tijdens en na de reis met de NS.
+
+[Bekijk hier het protoype](https://armandbissesar.github.io/99-NS-verhalen-2019/index.html)
