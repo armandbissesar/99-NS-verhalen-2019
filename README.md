@@ -31,11 +31,10 @@
 ## Het concept
 
 99 NS verhalen is een interactieve verhalen website met unieke verhalen voor de reizigers van de NS. Ik heb gekozen voor *continuous* strategie. Dit houd in dat mijn multidevice ervaring een doorlopende ervaring is. De 99 NS-verhalen zullen dus ongeacht pc, tablet of telefoon, een geweldige leeservaring bieden aan de gebruiker.
-In mijn concept wordt de gebruiker geholpen met het kiezen van een verhaal waar de gebruik zin in heeft. <br>
+In mijn concept wordt de gebruiker geholpen met het kiezen van een verhaal waar de gebruik zin in heeft. <br><br>
 Dit wordt gedaan door middel van de genres. Door deze te koppelen met een tijd is het ideaal voor de gebruiker die een passend verhaal zoekt voor het juiste moment. <br>
-De gebruiker kan een deel van een verhaal lezen en deze opslaan om bijvoorbeeld later te lezen. <br>
-De website laat de gebruiker kiezen wanneer het beste moment is voor de gebruiker om een verhaal te ervaren. 
-De website is gemaakt op basis van de NS huisstijl.
+De gebruiker kan een deel van een verhaal lezen en deze opslaan om bijvoorbeeld later te lezen. De website laat de gebruiker kiezen wanneer het beste moment is voor de gebruiker om een verhaal te ervaren. 
+<br><br>De website is gemaakt op basis van de NS huisstijl.
 
 Hieronder is mijn visual research te bekijken van de NS huisstijl:
 ![alt text](images/readme/nshuisstijl.png "NS-huisstijl")
