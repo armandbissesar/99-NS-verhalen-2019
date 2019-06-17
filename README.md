@@ -43,51 +43,48 @@ Hieronder leg ik uit hoe de flow van de website is, in het perspectief van de ge
 
 ---
 
-### Voor de reis
+### Voor de reis: **1. Verhalen ontdekken, inloggen en bookmarken.(Desktop)**
 
-**1. Verhalen ontdekken, inloggen en bookmarken.(Desktop)**
+1. Armand wilt graag op zijn laptop bekijken, welk verhaal hij later in de trein wilt gaan lezen op zijn mobiel. 
 
-1. De gebruiker, Armand, wilt graag op zijn laptop bekijken welk verhaal hij later in de trein wilt gaan lezen. 
-
-2. Hij bezoekt de website.
+2. Hij bezoekt de website van 99 NS verhalen.
 
 ![alt text](images/readme/desktop/1.png "Overzichtpagina-uitgelogd")
 
-3. Hij wordt welkom geheten en ziet het overzicht. Armand heeft zin in een grappig verhaal dat langer duurt dan 10minuten. Deze eisen verwerkt
+3. Hij wordt welkom geheten en ziet het verhalen overzicht. Armand heeft zin in een grappig verhaal dat langer duurt dan 10 minuten ivm zijn reis. Deze eisen verwerkt
 hij in het filter systeem. Hij laat de verhaal gesorteerd op aanbevolen. Hij ziet dat de verhalen automatisch meefilteren. De verwarde man lijkt hem een leuk
-verhaal en wilt deze bookmarken.
+verhaal en hij wilt deze opslaan(bookmarken).
 
-![alt text](images/readme/desktop/2.png "Overzichtpagina-uitgelogd")
+![alt text](images/readme/desktop/2.png "melding")
 
 4. Zodra hij hierop klikt krijgt hij een melding om in te loggen of een account te maken.
 
-![alt text](images/readme/desktop/3.png "Overzichtpagina-uitgelogd")
+![alt text](images/readme/desktop/3.png "account maken")
 
-5. Nadat hij een account heeft aangemaakt, klikt hij op inloggen en ziet hij dat boven aan de website een nieuwe pagina genaamd opgeslagen is toegevoegd.
+5. Nadat hij een account heeft aangemaakt, klikt hij op inloggen en ziet hij dat er boven aan de websit, een nieuwe pagina genaamd opgeslagen is toegevoegd aan het menu.
 Daarnaast ziet hij dat de verwarde man is opgeslagen.
 
-![alt text](images/readme/desktop/4.png "Overzichtpagina-uitgelogd")
+![alt text](images/readme/desktop/4.png "ingelogd")
 
-6. Armand heeft zijn verhaal opgeslagen en vertrekt naar buiten.
+6. Armand heeft zijn verhaal opgeslagen en is klaar voor zijn trein reis.
 
-![alt text](images/readme/desktop/5.png "Overzichtpagina-uitgelogd")
+![alt text](images/readme/desktop/5.png "verhaal opgeslagen")
 
 
-### Tijdens de reis
-
-**2. Inloggen op mobiel, opgeslagen pagina bekijken en verhaal lezen.(mobiel)**
+### Tijdens de reis: **2. Inloggen op mobiel, opgeslagen pagina bekijken en verhaal lezen.(mobiel)**
 
 1. Armand gaat naar de mobiele website en logt in.
 
+![alt text](images/readme/mobiel/1.png "Overzichtpagina-mobiel-inlog")
+
 2. Hierna klikt hij op opgeslagen verhalen. Vervolgens klikt hij op *lees verder* om zijn verhaal te beginnen.
+Armand leest het verhaal: de verwarde man.
 
-3. Armand leest het verhaal: de verwarde man.
+![alt text](images/readme/mobiel/2.png "Overzichtpagina-mobiel-inlog")
 
-4. 6 minuten gaan zo voorbij en Armand is bijna op zijn bestemming. Hij heeft verhaal niet kunnen afmaken.
+3. 6 minuten gaan zo voorbij en Armand is bijna op zijn bestemming. Hij heeft zijn verhaal niet kunnen afmaken.
 
-### Na de reis
-
-**3. Inloggen, Verder lezen voor Armand, verhaal lezen en beoordelen (Desktop)**
+### Na de reis: **3. Inloggen, Verder lezen voor Armand, verhaal lezen en beoordelen (Desktop)**
 
 1. Eenmaal thuis aangekomen. Logt Armand in op zijn tablet en ziet hij de verwarde op het homescherm. Armand kan meteen met het verhaal
 verder gaan. 
