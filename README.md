@@ -9,7 +9,7 @@
 
 * [Auteur](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#auteur)
 * [Het concept](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#het-concept)
-* [Multi device wireflow](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#multi-device-wireflow)
+* [Multi-device flow](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#multi-device-flow)
     * Responsive gebruikerservaring 
         * [Voor de reis](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#het-concept)
         * [Tijdens de reis](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#tijdens-de-reis)
@@ -41,7 +41,7 @@ Hieronder is mijn visual research te bekijken van de NS huisstijl:
 
 Bekijk de volledige visual research in mijn sketch bestand(@moodle).
 
-## Multi device wireflow
+## Multi-device flow
 
 Hieronder leg ik uit hoe de flow en gebruikerservaring van de website werkt in context.
 
@@ -79,7 +79,7 @@ Daarnaast ziet hij dat de verwarde man is opgeslagen.
 
 1. Armand gaat naar de mobiele website en logt in.
 
-![alt text](images.readme/mobiel/1mobielkopie.png "Overzichtpagina-mobiel-inlog")
+![alt text](images.readme/1mobielkopie.png "Overzichtpagina-mobiel-inlog")
 
 2. Hierna klikt hij op opgeslagen verhalen. Vervolgens klikt hij op *lees verder* om zijn verhaal te beginnen.
 Armand leest het verhaal: de verwarde man.
@@ -119,11 +119,11 @@ Bekijk het meegestuurde sketch file (@moodle) voor alle schermen.
 Drukken op de lege bookmark knop
 
 **Rules:**
-De bookmarker wordt gevuld, dat aangeeft dat een verhaal is gebookmarked.
+De bookmarker wordt gevuld, dat aangeeft dat een verhaal is opgeslagen/gebookmarked.
 
 **Feedback:**
 De gebruiker krijgt feedback door dat de bookmarker gevuld wordt en er komt een rood bolletje van rechts binnen. 
-Deze rust vervolgens bij opgeslagen en verdwijnt daarna weer.
+Deze rust vervolgens bij opgeslagen en verdwijnt daarna weer. 
 
 **Loop:**
 Doormiddel van de loop kan de gebruiker de microinteractie opnieuw beginnnen. 
@@ -145,7 +145,7 @@ De gebruiker kan input geven en heeft invloed op de populaire verhalen van de we
 
 **Loop:**
 De thumps up/down kan aan en uit worden gezet door erop te klikken.
-De microinterctie begint opnieuw wanneer beide niet zijn selecteerd.
+De microinteractie begint opnieuw wanneer beide niet zijn selecteerd.
 
 ![alt text](images/readme/microinteracties/beoordelen.png "Beoordelen")
 
