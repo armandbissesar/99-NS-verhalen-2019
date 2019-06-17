@@ -372,15 +372,15 @@ aside {
 
 }
 
-article {
-    background-image: url("images/verhaalachtergrond");
-    background-repeat: repeat-x;
-}
-
 article img {
     width: 100%;
 }
 
+
+.verhaalachtergrond {
+    background-image: url(../images/verhaal/Ipad%20achtergrond.png);
+    background-repeat: repeat;
+}
 
 article h1 {
     font-family: 'BadaBoom BB';
@@ -518,7 +518,7 @@ Resposive schermen
 }
 
 
-@media screen and (min-width: 75rem) {
+@media screen and (min-width: 65rem) {
 
     main > section {
         max-width: 75rem;
