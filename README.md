@@ -79,7 +79,7 @@ Daarnaast ziet hij dat de verwarde man is opgeslagen.
 
 1. Armand gaat naar de mobiele website en logt in.
 
-![alt text](images.readme/1mobielkopie.png "Overzichtpagina-mobiel-inlog")
+![alt text](images/readme/1mobiel.png "Overzichtpagina-mobiel-inlog")
 
 2. Hierna klikt hij op opgeslagen verhalen. Vervolgens klikt hij op *lees verder* om zijn verhaal te beginnen.
 Armand leest het verhaal: de verwarde man.
