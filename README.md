@@ -35,7 +35,7 @@ Hieronder leg ik uit hoe de flow van de website is uit het perspectief van de de
 
 2. Hij bezoekt de website.
 
-![alt text](images/logo/nslogo.svg "Logo Title Text 1")
+![alt text](images/readme/desktop/1.png "Overzichtpagina-uitgelogd")
 
 
 
