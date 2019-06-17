@@ -2,19 +2,23 @@
 
 99 NS verhalen is een verhalen website waar de gebruiker unieke verhalen kan lezen tijdens, voor en na de reizen met de Nederlandse Spoorwegen.  Het is een website die beschikbaar is voor alle apparaten en browsers een in elke context de gebruiker een unieke ervaring kan meegeven. 
 
-```
-[Bekijk hier het resultaat](https://armandbissesar.github.io/99-NS-verhalen-2019/index.html)
-```
+[Bekijk hier het protype](https://armandbissesar.github.io/99-NS-verhalen-2019/index.html)
+
 
 ## Inhoudsopgave
 
-* [Auteur](https://www.google.com)
-* [Het concept](https://www.google.com)
-* [Multi device wireflow](https://www.google.com)
-    * De gebruikerservaring voor, tijdens en na de reis met 99 NS verhalen
-    * Responsive website
-* [Microinteracties](https://www.google.com)
-* [De verwarde man](https://www.google.com)
+* [Auteur](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#auteur)
+* [Het concept](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#het-concept)
+* [Multi device wireflow](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#multi-device-wireflow)
+    * Responsive gebruikerservaring 
+        * [Voor de reis] (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#het-concept)
+        * [Tijdens de] reis (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#tijdens-de-reis)
+        * [Na de reis] (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#na-de-reis)
+
+* [Microinteracties](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#micro-interacties)
+    * [Bookmarken] (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#bookmark)
+    * [Beoordelen] (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#beoordelen)
+* [De verwarde man](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#het-verhaal-de-verwarde-man)
 
 
 ## Auteur
@@ -104,6 +108,7 @@ Doormiddel van de loop kan de gebruiker de microinteractie opnieuw beginnnen.
 Dit wordt gedaan in door weer te klikken op de bookmarker. 
 Dan gaat hij van ingevuld naar leeg.
 
+![alt text](images/readme/microinteracties/bookmark.mp4 "Bookmark")
 
 ### Beoordelen
 
@@ -120,12 +125,13 @@ De gebruiker kan input geven en heeft invloed op de populaire verhalen van de we
 De thumps up/down kan aan en uit worden gezet door erop te klikken.
 De microinterctie begint opnieuw wanneer beide niet zijn selecteerd.
 
+![alt text](images/readme/microinteracties/beoordelen.png "Beoordelen")
 
 ## Het verhaal: De verwarde man
 
-#### Visual Research
+#### Visual Research Verhaal
 Bekijk de volledige visual research in mijn sketch bestand.
-
+![alt text](images/readme/visualresearchverhaal.png "verhaalresearch")
 
 ### Mobiel
 
