@@ -31,6 +31,10 @@
 
 99 NS verhalen is een interactieve verhalen website met unieke verhalen voor de reizigers van de NS. Ik heb gekozen voor *continuous* strategie. Dit houd in dat mijn multidevice ervaring een doorlopende ervaring is. De 99 NS-verhalen zullen dus ongeacht pc, tablet of telefoon, een geweldige leeservaring bieden aan de gebruiker.
 
+Hieronder is mijn visual research te bekijken van de NS huisstijl:
+![alt text](images/readme/desktop/nshuisstijl.png "NS-huisstijl")
+
+Bekijk de volledige visual research in mijn sketch bestand.
 ## Multi device wireflow
 
 Hieronder leg ik uit hoe de flow van de website is, in het perspectief van de gebruikerservaring met desktop, mobiel en tablet.
@@ -108,7 +112,7 @@ Doormiddel van de loop kan de gebruiker de microinteractie opnieuw beginnnen.
 Dit wordt gedaan in door weer te klikken op de bookmarker. 
 Dan gaat hij van ingevuld naar leeg.
 
-![alt text](images/readme/microinteracties/bookmark.mp4 "Bookmark")
+![alt text](images/readme/microinteracties/bookmark.gif "Bookmark")
 
 ### Beoordelen
 
