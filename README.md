@@ -35,7 +35,7 @@ Hieronder leg ik uit hoe de flow van de website is uit het perspectief van de de
 
 2. Hij bezoekt de website.
 
-![alt text](armandbissesar/Documents/GitHub/99-NS-verhalen-2019/images/readme/desktop/1.png "Logo Title Text 1")
+![alt text](images/logo/nslogo.svg "Logo Title Text 1")
 
 
 
