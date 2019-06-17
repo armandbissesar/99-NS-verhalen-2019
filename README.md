@@ -2,7 +2,9 @@
 
 99 NS verhalen is een verhalen website waar de gebruiker unieke verhalen kan lezen tijdens, voor en na de reizen met de Nederlandse Spoorwegen.  Het is een website die beschikbaar is voor alle apparaten en browsers een in elke context de gebruiker een unieke ervaring kan meegeven. 
 
-[ Bekijk hier het resultaat](https://armandbissesar.github.io/99-NS-verhalen-2019/index.html)
+```
+[Bekijk hier het resultaat](https://armandbissesar.github.io/99-NS-verhalen-2019/index.html)
+```
 
 ## Inhoudsopgave
 
@@ -27,104 +29,107 @@
 
 ## Multi device wireflow
 
-Hieronder leg ik uit hoe de flow van de website is uit het perspectief van de desktop, mobiel en tablet.
+Hieronder leg ik uit hoe de flow van de website is, in het perspectief van de gebruikerservaring met desktop, mobiel en tablet.
 
-**1. Verhalen ontdekken en bookmarken**
+---
 
-1. De gebruiker wilt graag op zijn laptop bekijken welk verhaal hij later in de trein wilt gaan lezen. 
+### Voor de reis
+
+**1. Verhalen ontdekken, inloggen en bookmarken.(Desktop)**
+
+1. De gebruiker, Armand, wilt graag op zijn laptop bekijken welk verhaal hij later in de trein wilt gaan lezen. 
 
 2. Hij bezoekt de website.
 
 ![alt text](images/readme/desktop/1.png "Overzichtpagina-uitgelogd")
 
+3. Hij wordt welkom geheten en ziet het overzicht. Armand heeft zin in een grappig verhaal dat langer duurt dan 10minuten. Deze eisen verwerkt
+hij in het filter systeem. Hij laat de verhaal gesorteerd op aanbevolen. Hij ziet dat de verhalen automatisch meefilteren. De verwarde man lijkt hem een leuk
+verhaal en wilt deze bookmarken.
+
+4. Zodra hij hierop klikt krijgt hij een melding om in te loggen of een account te maken.
+
+5. Nadat hij een account heeft aangemaakt, klikt hij op inloggen en ziet hij dat boven aan de website een nieuwe pagina genaamd opgeslagen is toegevoegd.
+Daarnaast ziet hij dat de verwarde man is opgeslagen.
+
+6. Armand heeft zijn verhaal opgeslagen en vertrekt naar buiten.
 
 
-### Prerequisites
+### Tijdens de reis
 
-What things you need to install the software and how to install them
+**2. Inloggen op mobiel, opgeslagen pagina bekijken en verhaal lezen.(mobiel)**
 
-## Getting Started
+1. Armand gaat naar de mobiele website en logt in.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+2. Hierna klikt hij op opgeslagen verhalen. Vervolgens klikt hij op *lees verder* om zijn verhaal te beginnen.
 
-### Prerequisites
+3. Armand leest het verhaal: de verwarde man.
 
-What things you need to install the software and how to install them
+4. 6 minuten gaan zo voorbij en Armand is bijna op zijn bestemming. Hij heeft verhaal niet kunnen afmaken.
 
-```
-Give examples
-```
+### Na de reis
 
-### Installing
+**3. Inloggen, Verder lezen voor Armand, verhaal lezen en beoordelen (Desktop)**
 
-A step by step series of examples that tell you how to get a development env running
+1. Eenmaal thuis aangekomen. Logt Armand in op zijn tablet en ziet hij de verwarde op het homescherm. Armand kan meteen met het verhaal
+verder gaan. 
 
-Say what the step will be
+2. Nadat hij het verhaal had uitgelezen was hij van mening dat hij het een leuk verhaal vond. Onderaan het scherm kan hij een beoordeling over het verhaal
+geven. Hij doet dit door op het groen duimpje te klikken. Hij ziet het percentage veranderen. Dit geeft een beeld over wat de andere NS gebruikers vinden 
+van het verhaal. Armand heeft in iedergeval genoten.
 
-```
-Give the example
-```
+---
 
-And repeat
+Zo ziet de gebruikerservaring eruit van 99 NS verhalen.
+Bekijk het meegestuurde sketch file (@moodle) voor alle schermen.
 
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
+## Micro interacties
 
-## Running the tests
 
-Explain how to run the automated tests for this system
+### Bookmark
 
-### Break down into end to end tests
+**Trigger:**
+Drukken op de lege bookmark knop
 
-Explain what these tests test and why
+**Rules:**
+De bookmarker wordt gevuld, dat aangeeft dat een verhaal is gebookmarked.
 
-```
-Give an example
-```
+**Feedback:**
+De gebruiker krijgt feedback door dat de bookmarker gevuld wordt en er komt een rood bolletje van rechts binnen. 
+Deze rust vervolgens bij opgeslagen en verdwijnt daarna weer.
 
-### And coding style tests
+**Loop:**
+Doormiddel van de loop kan de gebruiker de microinteractie opnieuw beginnnen. 
+Dit wordt gedaan in door weer te klikken op de bookmarker. 
+Dan gaat hij van ingevuld naar leeg.
 
-Explain what these tests test and why
 
-```
-Give an example
-```
+### Beoordelen
 
-## Deployment
+**Trigger:**
+Drukken op de positieve of negatieve thumps up/down(duim ophoog/laag)
 
-Add additional notes about how to deploy this on a live system
+**Rules:**
+Er wordt een beoordeling gegeven van de leeservaring.
 
-## Built With
+**Feedback:**
+De gebruiker kan input geven en heeft invloed op de populaire verhalen van de website.
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+**Loop:**
+De thumps up/down kan aan en uit worden gezet door erop te klikken.
+De microinterctie begint opnieuw wanneer beide niet zijn selecteerd.
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+## Het verhaal: De verwarde man
 
-## Versioning
+#### Visual Research
+Bekijk de volledige visual research in mijn sketch bestand.
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-## Authors
+### Mobiel
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+### Tablet
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+### Desktop
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
-[logo]: link "99 NS verhalen"
