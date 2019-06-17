@@ -12,7 +12,7 @@
 * [Multi device wireflow](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#multi-device-wireflow)
     * Responsive gebruikerservaring 
         * [Voor de reis](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#het-concept)
-        * [Tijdens de](reis (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#tijdens-de-reis)
+        * [Tijdens de reis](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#tijdens-de-reis)
         * [Na de reis](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#na-de-reis)
 
 * [Microinteracties](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#micro-interacties)
@@ -31,6 +31,10 @@
 ## Het concept
 
 99 NS verhalen is een interactieve verhalen website met unieke verhalen voor de reizigers van de NS. Ik heb gekozen voor *continuous* strategie. Dit houd in dat mijn multidevice ervaring een doorlopende ervaring is. De 99 NS-verhalen zullen dus ongeacht pc, tablet of telefoon, een geweldige leeservaring bieden aan de gebruiker.
+In mijn concept wordt de gebruiker geholpen met het kiezen van een verhaal waar de gebruik zin in heeft. Dit wordt gedaan door middel van 
+de genres. Door deze te koppelen met een tijd is het ideaal voor de gebruiker die een passend verhaal zoekt voor het juiste moment.
+De gebruiker kan een deel van een verhaal lezen en deze opslaan om bijvoorbeeld later te lezen. De website laat de gebruiker kiezen wanneer het beste moment is voor de gebruiker om een verhaal te ervaren. 
+De website is gemaakt op basis van de NS huisstijl.
 
 Hieronder is mijn visual research te bekijken van de NS huisstijl:
 ![alt text](images/readme/nshuisstijl.png "NS-huisstijl")
@@ -39,7 +43,7 @@ Bekijk de volledige visual research in mijn sketch bestand(@moodle).
 
 ## Multi device wireflow
 
-Hieronder leg ik uit hoe de flow van de website is, in het perspectief van de gebruikerservaring met desktop, mobiel en tablet.
+Hieronder leg ik uit hoe de flow en gebruikerservaring van de website werkt in context.
 
 ---
 
@@ -75,7 +79,7 @@ Daarnaast ziet hij dat de verwarde man is opgeslagen.
 
 1. Armand gaat naar de mobiele website en logt in.
 
-![alt text](images.readme/mobiel/1mobiel.png "Overzichtpagina-mobiel-inlog")
+![alt text](images.readme/mobiel/1mobielkopie.png "Overzichtpagina-mobiel-inlog")
 
 2. Hierna klikt hij op opgeslagen verhalen. Vervolgens klikt hij op *lees verder* om zijn verhaal te beginnen.
 Armand leest het verhaal: de verwarde man.
