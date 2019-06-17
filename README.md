@@ -19,6 +19,7 @@
     * [Bookmarken] (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#bookmark)
     * [Beoordelen] (https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#beoordelen)
 * [De verwarde man](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#het-verhaal-de-verwarde-man)
+* [Conclusie](https://github.com/armandbissesar/99-NS-verhalen-2019/blob/master/README.md#conclusie)
 
 
 ## Auteur
@@ -32,9 +33,10 @@
 99 NS verhalen is een interactieve verhalen website met unieke verhalen voor de reizigers van de NS. Ik heb gekozen voor *continuous* strategie. Dit houd in dat mijn multidevice ervaring een doorlopende ervaring is. De 99 NS-verhalen zullen dus ongeacht pc, tablet of telefoon, een geweldige leeservaring bieden aan de gebruiker.
 
 Hieronder is mijn visual research te bekijken van de NS huisstijl:
-![alt text](images/readme/desktop/nshuisstijl.png "NS-huisstijl")
+![alt text](images/readme/nshuisstijl.png "NS-huisstijl")
 
-Bekijk de volledige visual research in mijn sketch bestand.
+Bekijk de volledige visual research in mijn sketch bestand(@moodle).
+
 ## Multi device wireflow
 
 Hieronder leg ik uit hoe de flow van de website is, in het perspectief van de gebruikerservaring met desktop, mobiel en tablet.
@@ -55,12 +57,20 @@ Hieronder leg ik uit hoe de flow van de website is, in het perspectief van de ge
 hij in het filter systeem. Hij laat de verhaal gesorteerd op aanbevolen. Hij ziet dat de verhalen automatisch meefilteren. De verwarde man lijkt hem een leuk
 verhaal en wilt deze bookmarken.
 
+![alt text](images/readme/desktop/2.png "Overzichtpagina-uitgelogd")
+
 4. Zodra hij hierop klikt krijgt hij een melding om in te loggen of een account te maken.
+
+![alt text](images/readme/desktop/3.png "Overzichtpagina-uitgelogd")
 
 5. Nadat hij een account heeft aangemaakt, klikt hij op inloggen en ziet hij dat boven aan de website een nieuwe pagina genaamd opgeslagen is toegevoegd.
 Daarnaast ziet hij dat de verwarde man is opgeslagen.
 
+![alt text](images/readme/desktop/4.png "Overzichtpagina-uitgelogd")
+
 6. Armand heeft zijn verhaal opgeslagen en vertrekt naar buiten.
+
+![alt text](images/readme/desktop/5.png "Overzichtpagina-uitgelogd")
 
 
 ### Tijdens de reis
@@ -143,3 +153,4 @@ Bekijk de volledige visual research in mijn sketch bestand.
 
 ### Desktop
 
+## Conclusie
