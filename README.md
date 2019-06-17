@@ -169,3 +169,5 @@ Project web was een interessant en vooral leerzaam project. Zo is de grootste le
 bij te schakelen. Hierbij doel ik voornamelijk op het stuk front-end. Terugkijkend kan ik trots terug kijken op de multi-device oplossing voor, tijdens en na de reis met de NS.
 
 [Bekijk hier het protoype](https://armandbissesar.github.io/99-NS-verhalen-2019/index.html)
+
+Armand
